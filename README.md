@@ -41,16 +41,13 @@ sults while having lower runtime.
 ## Results
 
 #### Evaluations on SceneFlow Dataset
-
-| MC-CNN | GANet | GC-Net | SegStereo | CRL | PSMNet | LEAStereo | DP-Best|
-|---|---|---|---|---|---|---|---|
-| EPE | 3.79| 0.84 |2.51 |1.45 |1.32| 1.09 |0.78 |0.86|
-| Runtime (s)| 67 | 1.8 | 0.90 | 0.6 | 0.47 | 0.41 | 0.3 | 0.182|
-
-| AANet | DP-Fast | DispNetC | DecNet | MSCVNet | StereoNet | P3SNet+|  P3SNet|
-|---|---|---|---|---|---|---|---|
-| EPE | 0.87 | 0.97 | 1.68 | 0.84 | 1.32 | 1.1 | 1.09 | 1.16 |
-| Runtime (s) |0.07 | 0.062 | 0.06 | 0.05 | 0.041 | 0.015 | 0.015 | 0.012 |
+|  | MC-CNN | GANet | GC-Net | SegStereo | CRL | PSMNet | LEAStereo | DP-Best|
+|---|---|---|---|---|---|---|---|---|
+| <strong>EPE</strong> | 3.79| 0.84 |2.51 |1.45 |1.32| 1.09 |0.78 |0.86|
+| <strong>Runtime (s)</strong> | 67 | 1.8 | 0.90 | 0.6 | 0.47 | 0.41 | 0.3 | 0.182|
+|  | AANet | DP-Fast | DispNetC | DecNet | MSCVNet | StereoNet | P3SNet+|  P3SNet|
+| <strong>EPE</strong>  | 0.87 | 0.97 | 1.68 | 0.84 | 1.32 | 1.1 | 1.09 | 1.16 |
+| <strong>Runtime (s)</strong> |0.07 | 0.062 | 0.06 | 0.05 | 0.041 | 0.015 | 0.015 | 0.012 |
 
 #### Evaluations on KITTI 2015 benchmark
 
