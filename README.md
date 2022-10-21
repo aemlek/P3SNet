@@ -44,6 +44,7 @@ sults while having lower runtime.
 
 
 | MC-CNN | GANet | GC-Net | SegStereo | CRL | PSMNet | LEAStereo | DP-Best|
+|---|---|---|
 | EPE | 3.79| 0.84 |2.51 |1.45 |1.32| 1.09 |0.78 |0.86|
 | Runtime (s)| 67 | 1.8 | 0.90 | 0.6 | 0.47 | 0.41 | 0.3 | 0.182|
 | AANet | DP-Fast | DispNetC | DecNet | MSCVNet | StereoNet | P3SNet+|  P3SNet|
