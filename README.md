@@ -48,12 +48,11 @@ sults while having lower runtime.
 
 #### Evaluations on KITTI 2012 and KITTI 2015 benchmarks
 
+![Image](https://github.com/aemlek/P3SNet/blob/main/figure/table-5.png "KITTI20215_results")
+
 ![Image](https://github.com/aemlek/P3SNet/blob/main/figure/KITTI20212_results.png "KITTI20212_results")
 
 ![Image](https://github.com/aemlek/P3SNet/blob/main/figure/KITTI20215_results.png "KITTI20215_results")
-
-
-![Image](https://github.com/aemlek/P3SNet/blob/main/figure/table-5.png "KITTI20215_results")
 
 
 ## Contacts
