@@ -45,14 +45,6 @@ sults while having lower runtime.
 ![Image](https://github.com/aemlek/P3SNet/blob/main/figure/table-4.png "KITTI20215_results")
 
 
-|  | MC-CNN | GANet | GC-Net | SegStereo | CRL | PSMNet | LEAStereo | DP-Best|
-|---|---|---|---|---|---|---|---|---|
-| <strong>EPE</strong> | 3.79| 0.84 |2.51 |1.45 |1.32| 1.09 |0.78 |0.86|
-| <strong>Runtime (s)</strong> | 67 | 1.8 | 0.90 | 0.6 | 0.47 | 0.41 | 0.3 | 0.182|
-|  | <strong>AANet</strong>  | <strong>DP-Fast</strong> | <strong>DispNetC</strong> | <strong>DecNet</strong> | <strong>MSCVNet</strong> |<strong>StereoNet</strong>  | <strong>P3SNet+</strong>| <strong>P3SNet</strong> |
-| <strong>EPE</strong>  | 0.87 | 0.97 | 1.68 | 0.84 | 1.32 | 1.1 | 1.09 | 1.16 |
-| <strong>Runtime (s)</strong> |0.07 | 0.062 | 0.06 | 0.05 | 0.041 | 0.015 | 0.015 | 0.012 |
-
 
 #### Evaluations on KITTI 2012 and KITTI 2015 benchmarks
 
