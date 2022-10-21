@@ -42,6 +42,9 @@ sults while having lower runtime.
 
 #### Evaluations on SceneFlow Dataset
 
+![Image](https://github.com/aemlek/P3SNet/blob/main/figure/table-4.png "KITTI20215_results")
+
+
 |  | MC-CNN | GANet | GC-Net | SegStereo | CRL | PSMNet | LEAStereo | DP-Best|
 |---|---|---|---|---|---|---|---|---|
 | <strong>EPE</strong> | 3.79| 0.84 |2.51 |1.45 |1.32| 1.09 |0.78 |0.86|
@@ -51,15 +54,14 @@ sults while having lower runtime.
 | <strong>Runtime (s)</strong> |0.07 | 0.062 | 0.06 | 0.05 | 0.041 | 0.015 | 0.015 | 0.012 |
 
 
-#### Evaluations on KITTI 2015 benchmark
-
+#### Evaluations on KITTI 2012 and KITTI 2015 benchmarks
 
 ![Image](https://github.com/aemlek/P3SNet/blob/main/figure/KITTI20212_results.png "KITTI20212_results")
 
-
-#### Evaluations on KITTI 2015 benchmark
-
 ![Image](https://github.com/aemlek/P3SNet/blob/main/figure/KITTI20215_results.png "KITTI20215_results")
+
+
+![Image](https://github.com/aemlek/P3SNet/blob/main/figure/table-5.png "KITTI20215_results")
 
 
 ## Contacts
