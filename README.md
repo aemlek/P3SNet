@@ -27,8 +27,7 @@ We recommend using conda for installation:
 ```
 conda env create -f environment.yml
 ```
-[Optional] For time comparison, we used [Pytorch-Correlation-extension]
-(https://github.com/ClementPinard/Pytorch-Correlation-extension) by modifying it.
+[Optional] For time comparison, we used [Pytorch-Correlation-extension](https://github.com/ClementPinard/Pytorch-Correlation-extension) by modifying it.
 ```
 cd model/ && python setup_cpu.py install
 ```
@@ -122,7 +121,6 @@ Replace P3SNet expressions with P3SNET_plus to use the P3SNET+ model instead of 
 
 ## Acknowledgements
 
-Part of the code is adopted from previous works: PSMNet, GwcNet and GA-Net. The 1D correlation op is taken from [Pytorch-Correlation-extension]
-(https://github.com/ClementPinard/Pytorch-Correlation-extension).  We thank the original authors for their awesome repos.
+Part of the code is adopted from previous works: PSMNet, GwcNet and GA-Net. The 1D correlation op is taken from [Pytorch-Correlation-extension](https://github.com/ClementPinard/Pytorch-Correlation-extension).  We thank the original authors for their awesome repos.
 
 ## Contacts
