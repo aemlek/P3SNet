@@ -20,6 +20,17 @@ In autonomous driving and advanced driver assistance systems (ADAS), stereo matc
 
 ## Usage
 
+Our code is based on PyTorch 1.2.0, CUDA 10.0 and python 3.7.
+
+We recommend using conda for installation:
+
+conda env create -f environment.yml
+After installing dependencies, build deformable convolution:
+
+cd nets/deform_conv && bash build.sh
+
+
+
 ## Results
 
 #### Evaluations on SceneFlow Dataset
