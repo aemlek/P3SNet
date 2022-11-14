@@ -13,7 +13,6 @@ This repository contains the code (in PyTorch) for "[P3SNet: Parallel Pyramid Po
 2. [Usage](#usage)
 3. [Results](#results)
 4. [Acknowledgements](#Acknowledgements)
-5. [Contacts](#contacts)
 
 ## Introduction
 
@@ -121,6 +120,5 @@ Replace P3SNet expressions with P3SNET_plus to use the P3SNET+ model instead of 
 
 ## Acknowledgements
 
-Part of the code is adopted from previous works: PSMNet, GwcNet and GA-Net. The 1D correlation op is taken from [Pytorch-Correlation-extension](https://github.com/ClementPinard/Pytorch-Correlation-extension).  We thank the original authors for their awesome repos.
+Part of the code is adopted from previous works: PSMNet, .... The 1D correlation op is taken from [Pytorch-Correlation-extension](https://github.com/ClementPinard/Pytorch-Correlation-extension).  We thank the original authors for their awesome repos.
 
-## Contacts
