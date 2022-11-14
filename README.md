@@ -13,6 +13,7 @@ This repository contains the code (in PyTorch) for "[P3SNet: Parallel Pyramid Po
 2. [Usage](#usage)
 3. [Results](#results)
 4. [Contacts](#contacts)
+5. [Contacts](#contacts)
 
 ## Introduction
 
@@ -20,16 +21,17 @@ In autonomous driving and advanced driver assistance systems (ADAS), stereo matc
 
 ## Usage
 
-Our code is based on PyTorch 1.2.0, CUDA 10.0 and python 3.7.
+Our code is based on PyTorch 1.6.0, CUDA 10.2 and python 3.8.
 
 We recommend using conda for installation:
 
 conda env create -f environment.yml
-After installing dependencies, build deformable convolution:
 
-cd nets/deform_conv && bash build.sh
+[Optional] For time comparison, we used Pytorch-Correlation-extension by modifying it.
 
+cd model/ && python setup_cpu.py install
 
+After installation change the correlation1D function in submodule.py
 
 ## Results
 
@@ -47,5 +49,9 @@ cd nets/deform_conv && bash build.sh
 
 ![Image](https://github.com/aemlek/P3SNet/blob/main/figure/KITTI20215_results.png "KITTI20215_results")
 
+## Acknowledgements
+
+Part of the code is adopted from previous works: PSMNet, GwcNet and GA-Net. The 1D correlation op is taken from Pytorch-Correlation-extension
+https://github.com/ClementPinard/Pytorch-Correlation-extension.  We thank the original authors for their awesome repos.
 
 ## Contacts
