@@ -24,14 +24,14 @@ In autonomous driving and advanced driver assistance systems (ADAS), stereo matc
 Our code is based on PyTorch 1.6.0, CUDA 10.2 and python 3.8.
 
 We recommend using conda for installation:
-
+'''
 conda env create -f environment.yml
-
+'''
 [Optional] For time comparison, we used [Pytorch-Correlation-extension]
 (https://github.com/ClementPinard/Pytorch-Correlation-extension) by modifying it.
-
+'''
 cd model/ && python setup_cpu.py install
-
+'''
 After installation change the correlation1D function in submodule.py
 
 
