@@ -4,7 +4,13 @@ This repository contains the code (in PyTorch) for "[P3SNet: Parallel Pyramid Po
 
 ### Reference
 ```
-
+@ARTICLE{10133885,
+  author={Emlek, Alper and Peker, Murat},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={P3SNet: Parallel Pyramid Pooling Stereo Network}, 
+  year={2023}, 
+  pages={1-12},
+  doi={10.1109/TITS.2023.3276328}}
 ```
 
 ## Contents
@@ -120,5 +126,5 @@ Replace P3SNet expressions with P3SNET_plus to use the P3SNET+ model instead of 
 
 ## Acknowledgements
 
-Part of the code is adopted from previous works: PSMNet, .... The 1D correlation op is taken from [Pytorch-Correlation-extension](https://github.com/ClementPinard/Pytorch-Correlation-extension).  We thank the original authors for their awesome repos.
+Part of the code is adopted from PSMNet. The 1D correlation op is taken from [Pytorch-Correlation-extension](https://github.com/ClementPinard/Pytorch-Correlation-extension).  We thank the original authors for their awesome repos.
 
