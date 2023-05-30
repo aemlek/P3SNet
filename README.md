@@ -1,6 +1,6 @@
 # P3SNet: Parallel Pyramid Pooling Stereo Network
 
-This repository contains the code (in PyTorch) for "[P3SNet: Parallel Pyramid Pooling Stereo Network]" paper   
+This repository contains the code (in PyTorch) for "[P3SNet: Parallel Pyramid Pooling Stereo Network]" [paper]{https://ieeexplore.ieee.org/abstract/document/10133885}   
 
 ### Reference
 ```
